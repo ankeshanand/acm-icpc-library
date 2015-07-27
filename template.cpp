@@ -39,7 +39,5 @@ struct debugger
 } dbg;
 
 int main()
-{
-
-}
+{}
 
