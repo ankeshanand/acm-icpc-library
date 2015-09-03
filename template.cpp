@@ -17,6 +17,9 @@ using namespace std;
 #define ll long long int//data types used often, but you don't want to type them time by time_t
 
 // Useful container manipulation / traversal macros
+#define REP(i,n) for(int i=0;i<(n);i++)
+#define FOR(i,a,b) for(int i=(a);i<=(b);i++)
+#define FORD(i,a,b) for(int i=(a);i>=(b);i--)
 #define forall(i,a,b)               for(int i=a;i<b;i++)
 #define foreach(v, c)               for( typeof( (c).begin()) v = (c).begin();  v != (c).end(); ++v)
 #define all(a)                      a.begin(), a.end()
@@ -38,6 +41,11 @@ struct debugger
     }
 } dbg;
 
+typedef vector<int> vi;
+typedef pair<int, int> ii;
+
 int main()
-{}
+{
+
+}
 
