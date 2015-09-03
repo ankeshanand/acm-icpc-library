@@ -50,7 +50,6 @@ class SegmentTree(object):
         by value.
         """
         self._update(0, self.start, self.end, start, end, value)
-        pass
 
 
     def _build_tree(self, root_idx, start, end):
@@ -113,6 +112,10 @@ class SegmentTree(object):
                 self.tree[root_idx*2+2])
 
     def print_tree(self):
+        """
+        Print the segment tree in the fashion
+        index: value
+        """
         for root_idx, node in enumerate(self.tree):
             print str(root_idx) + ": " + str(self.tree[root_idx].val)
 
